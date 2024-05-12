@@ -5,6 +5,8 @@
     display: block;
     width: 100%;
     height: auto;
+    float: right;
+    padding-bottom: 150px;
 }
 
 :root {
@@ -15,6 +17,13 @@
 
 h1, h2 {
     color: var(--heading-color);
+}
+
+h1 {
+    position: absolute;
+    top: auto;
+    left: 50rem;
+    color: white;
 }
 
 p {
