@@ -6,3 +6,21 @@
     width: 100%;
     height: auto;
 }
+
+:root {
+    --heading-color: #333;
+    --paragraph-color: #666;
+    --footer-color: #999;
+}
+
+h1, h2 {
+    color: var(--heading-color);
+}
+
+p {
+    color: var(--paragraph-color);
+}
+
+footer a {
+    text-decoration: none;
+}
