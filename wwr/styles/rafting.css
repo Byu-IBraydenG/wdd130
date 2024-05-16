@@ -9,6 +9,11 @@
     padding-bottom: 150px;
 }
 
+header {
+    display: flex;
+    align-items: flex-end;
+}
+
 :root {
     --heading-color: #333;
     --paragraph-color: #666;
@@ -33,3 +38,13 @@ p {
 footer a {
     text-decoration: none;
 }
+
+.adventures {
+    background-color: #e4e4e4;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+  }
+
