@@ -48,3 +48,8 @@ footer a {
     justify-content: space-between;
   }
 
+  header, footer {
+    max-width: 840px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
