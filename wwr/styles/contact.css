@@ -97,11 +97,14 @@ header nav ul li a:hover {
     font-size: 2em;
     color: #007bff;
 }
+.team .employee {
+    margin-bottom: 20px;
+    text-align: center;
+}
 
-.team .employee  {
+.team .employee img {
     width: 150px;
     height: auto;
-    border-radius: 50
 }
 
 /* Footer Styles*/
